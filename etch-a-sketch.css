@@ -1,0 +1,15 @@
+.grid{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
