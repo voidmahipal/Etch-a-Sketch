@@ -1,6 +1,9 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+}
 .grid{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
