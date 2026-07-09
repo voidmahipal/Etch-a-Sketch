@@ -33,8 +33,12 @@ function fillgrid(n) {
                 color_idx=getARandomNumber(0,20);
                 col.style.backgroundColor=colors[color_idx];
             })
+            let cnt=1;
             col.addEventListener("mouseleave",()=>{
                 col.style.backgroundColor=lightColors[color_idx];
+                col.style.opacity=(cnt*10)/100;
+                if(cnt==10) return;
+                cnt++;
             })
         }
         row.style.flex="1";
